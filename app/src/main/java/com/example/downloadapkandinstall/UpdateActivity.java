@@ -36,7 +36,7 @@ public class UpdateActivity extends AppCompatActivity {
     private static final int INSTALL_PERMISS_CODE = 500;//安装权限
     private static final int INSTALL_COMPLETE = 600;
     private Button btnDownInstall;//下载安装
-    private static String appDownloadUrl = "https://m.pc6.com/s/104059";//下载文件的地址
+    private static String appDownloadUrl = "https://cos.pgyer.com/76a96bea8b3c1f94522c90f55393b908.apk?sign=2b7bc506074da16147b4fe1ab488ed34&t=1685510204&response-content-disposition=attachment%3Bfilename%3D%E8%9B%AE%E8%8D%92%E6%A1%8C%E9%9D%A2_1.5.0.apk";//下载文件的地址
     private static int down = 0;//状态码
     File file;
     private Handler handler = new Handler() {
